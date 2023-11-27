@@ -1,0 +1,55 @@
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  background-color: blue;
+  color: white;
+}
+
+.navDiv {
+  position: relative;
+}
+
+.itemsICon {
+  position: absolute;
+  bottom: 13px;
+  left: -4px;
+}
+
+.itemsDiv {
+  background-color: white;
+  color: black;
+  text-align: center;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+}
+
+.cardClearButton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: cadetblue;
+  margin-bottom: 15px;
+}
+
+.cardItem {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+.cardQuantityButton {
+  border: none;
+  background-color: white;
+}
+.cardDeleteButton {
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-top: 20px;
+}
